@@ -8,11 +8,9 @@ R Package which gets access to data of Aclimate Platform. Browse its
 
 # Introduction
 
-This packages connects with the Web API's of available into the Aclimate Platform allowing access to the data stored inside of this system.
+This packages connects with the Web API's of the Aclimate Platform allowing access to the data saved inside of this system.
 
-It gets information about forecast climate.## Install
-
-The easiest way to install the package is from [Github repository](https://github.com/stevensotelo/aclimaterapi/) and using devtools.
+It gets information about forecast climate.
 
 ## Install
 
