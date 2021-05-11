@@ -27,6 +27,15 @@ The above command, when executed in R, downloads and installs the `aclimaterapi`
 
 The following list are recommendations which should be take into account when you try to use the package
 
+### Dependencies
+
+This packages requires that you install **httr** packages and set a new configuration for this package
+
+``` r
+library(httr)
+httr::set_config(config(ssl_verifypeer = 0L))
+```
+
 ### Url of the Web API
 
 The first thing that you have to identify is the url which is located the Web API. This parameter will be asked in all methods. 

@@ -12,9 +12,7 @@
 #' print(head(df_ws))
 #'
 #' @export
-get_ws = function(url_root){    
-    # Setting certificates
-    httr::set_config(config(ssl_verifypeer = 0L))
+get_ws = function(url_root){        
     # Downloading data
     url_geographic = paste0(url,"Geographic/json")
     request = GET(url)
