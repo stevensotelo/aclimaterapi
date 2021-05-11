@@ -14,7 +14,7 @@
 #' @export
 get_ws = function(url_root){        
     # Downloading data
-    url_geographic = paste0(url,"Geographic/json")
+    url = paste0(url_root,"Geographic/json")
     request = GET(url)
     response = content(request, as = "text", encoding = "UTF-8")
     data = fromJSON(response)
