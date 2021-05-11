@@ -1,0 +1,22 @@
+Package: aclimaterapi
+Type: Package
+Title: Aclimate R API Package
+Version: 0.1.0
+Date: 2021-05-10
+Authors@R: person("Steven", "Sotelo", email = "stevenbetancurt@hotmail.com",
+                  role = c("aut", "cre"))
+Description: R Package which gets access to data of Aclimate Platform.
+URL: https://github.com/stevensotelo/aclimaterapi/
+BugReports: https://github.com/stevensotelo/aclimaterapi/issues/
+License: MIT + file LICENSE
+Depends: R (>= 3.1)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
+Roxygen: list(markdown = TRUE)
+Suggests: 
+    knitr,
+    rmarkdown
+Imports:
+    httr (>= 1.4.2),
+    rjson (>= 0.2.20)
