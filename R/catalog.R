@@ -14,6 +14,7 @@
 #' @export
 get_ws = function(url_root){   
     library(httr)
+    library(rjson)
     httr::set_config(config(ssl_verifypeer = 0L))     
     # Downloading data
     url = paste0(url_root,"Geographic/json")

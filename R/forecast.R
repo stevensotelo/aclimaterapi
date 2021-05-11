@@ -15,6 +15,9 @@
 #'
 #' @export
 get_forecast_climate = function(url_root, stations){    
+    library(httr)
+    library(rjson)
+    httr::set_config(config(ssl_verifypeer = 0L)) 
     # Download data
     ws = paste(stations,collapse=",")
     url = paste0(url_root,"Forecast/Climate/",ws,"/true/json")
