@@ -40,6 +40,14 @@ The above command, when executed in R, downloads and installs the `aclimaterapi`
 
 The following list are recommendations which should be take into account when you try to use the package.
 
+### Import library
+
+Once you have installed the library, you should import it in order to get access to all functions
+
+```{r}
+library("aclimaterapi")
+```
+
 ### Url of the Web API
 
 The first thing that you have to identify is the url which is located the Web API. This parameter will be asked in all methods. 
