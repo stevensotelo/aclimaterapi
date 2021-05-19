@@ -2,7 +2,7 @@
 % Please edit documentation in R/forecast.R
 \name{get_forecast_crop}
 \alias{get_forecast_crop}
-\title{Get yield forecast}
+\title{Get crop forecast}
 \usage{
 get_forecast_crop(url_root, stations)
 }
@@ -20,7 +20,7 @@ function which gets the crop forecast for a set of weather stations available in
 \examples{
 url_root = "https://pronosticosapi.aclimatecolombia.org/api/"
 stations=c("58504f1a006cb93ed40eebe2","58504f1a006cb93ed40eebe3")
-obj_f = get_forecast_crop(url_root, stations)
-print(obj_f)
+df = get_forecast_crop(url_root, stations)
+print(head(df))
 
 }

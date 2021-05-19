@@ -44,8 +44,8 @@ get_ws = function(url_root){
 #'
 #' @examples
 #' url_root = "https://pronosticosapi.aclimatecolombia.org/api/"
-#' df = get_agronomy(url_root)
-#' print(head(df))
+#' obj_f = get_agronomy(url_root)
+#' print(obj_f)
 #'
 #' @export
 get_agronomy = function(url_root){   

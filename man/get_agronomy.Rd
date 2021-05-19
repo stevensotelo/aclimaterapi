@@ -17,7 +17,7 @@ function which gets a list of setups of cultivars and soils available into the a
 }
 \examples{
 url_root = "https://pronosticosapi.aclimatecolombia.org/api/"
-df = get_agronomy(url_root)
-print(head(df))
+obj_f = get_agronomy(url_root)
+print(obj_f)
 
 }

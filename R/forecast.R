@@ -56,7 +56,7 @@ get_forecast_climate = function(url_root, stations){
     return (forecast_climate)
 }
 
-#' Get yield forecast
+#' Get crop forecast
 #'
 #' @description function which gets the crop forecast for a set of weather stations available into the aclimate platform
 #'
@@ -68,8 +68,8 @@ get_forecast_climate = function(url_root, stations){
 #' @examples
 #' url_root = "https://pronosticosapi.aclimatecolombia.org/api/"
 #' stations=c("58504f1a006cb93ed40eebe2","58504f1a006cb93ed40eebe3")
-#' obj_f = get_forecast_crop(url_root, stations)
-#' print(obj_f)
+#' df = get_forecast_crop(url_root, stations)
+#' print(head(df))
 #'
 #' @export
 get_forecast_crop = function(url_root, stations){    
