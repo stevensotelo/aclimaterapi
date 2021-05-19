@@ -21,6 +21,14 @@ devtools::install_github("stevensotelo/aclimaterapi")
 ```
 The above command, when executed in R, downloads and installs the `aclimaterapi` from GitHub user `stevensotelo`.
 
+## Remove
+
+The easiest way to remove the package is:
+
+``` r
+remove.packages("aclimaterapi")
+```
+
 ## How to use
 
 The following list are recommendations which should be take into account when you try to use the package
